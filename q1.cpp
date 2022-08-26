@@ -26,7 +26,7 @@ int main()
             a[i - 1] = t;
         }
 
-        if (i + 1 < n && a[i + 1] > a[i]) // finds if the number after is smaller, swaps if yes
+        if (i + 1 < n && a[i + 1] > a[i]) // finds if the number after is greater, swaps if yes
         {
             int t = a[i];
             a[i] = a[i + 1];
